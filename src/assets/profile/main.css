@@ -1,0 +1,39 @@
+.box_profile{
+    height: 'fit-content';
+}
+
+
+.title_border{
+  border-left: 3px solid 'pink';
+}
+
+
+.accordion-button {
+    background-color: rgb(34 34 34); /* Màu nền mới */
+    color: white; /* Màu chữ mới */
+    box-shadow: none !important;
+  }
+
+  .accordion-button::after{
+    color: white !important;
+  }
+  
+  .accordion-button:not(.collapsed) {
+    background-color: rgb(34 34 34); /* Màu nền khi mở */
+    color: white; /* Màu chữ mới */
+  }
+  
+  .accordion-button:not(.collapsed)::after{
+    color: white !important;
+  }
+
+  /* Đổi màu nền của thân Accordion */
+  .accordion-body {
+    background-color: transparent; /* Màu nền mới */
+  }
+
+  .active{
+    background-color: rgb(162, 162, 162) !important;
+    border: 1px;
+    color: black !important;
+  }

@@ -1,0 +1,36 @@
+.box_popover{
+    position: relative;
+    cursor: pointer;
+}
+
+.box_popover:hover .popover_list{
+    display: block;
+}
+
+.popover_list{
+
+    position: absolute;
+    right: 0;
+    background-color: white;
+    border: 1px solid var(--bs-border-color-translucent);
+    border-radius: 5px;
+    padding: 0;
+    display: none;
+
+}
+
+.popover_list li{
+    list-style-type: none;
+    padding: 5px 10px;
+}
+
+.popover_list li:hover{
+    background-color: var(--bs-dropdown-link-hover-bg);;    
+}
+
+.popover_list li a{
+    text-decoration: none;
+    color: black;
+}
+
+
